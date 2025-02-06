@@ -79,25 +79,23 @@ Every time you start a server, the settings used to start it are saved in a `ser
             "default": "/path/to/default.html"
         },
         "welcomeFiles": "index.cfm,main.cfm,go.cfm",
-        // DEPRECATED: Use new bindings object
-        "HTTP": {
-            "enable": true,
-            "port": 8080
+        "bindings": {
+            "HTTP": {
+                "enable": true,
+                "port": 8080
+            },
+            "SSL": {
+                "enable": false,
+                "port": 443,
+                "certFile": "",
+                "keyFile": "",
+                "keyPass": ""
+            },
+            "AJP": {
+                "enable": false,
+                "port": 8009
+            },
         },
-        // DEPRECATED: Use new bindings object
-        "SSL": {
-            "enable": false,
-            "port": 443,
-            "certFile": "",
-            "keyFile": "",
-            "keyPass": ""
-        },
-        // DEPRECATED: Use new bindings object
-        "AJP": {
-            "enable": false,
-            "port": 8009
-        },
-        "bindings": {},
         "rewrites": {
             "enable": true,
             "logEnable": true,
