@@ -29,24 +29,18 @@ When adding a path, follow the rules for adding platform specific path separator
 
 ### Commandbox and Shells of Choice
 
-Install Shell Launcher and reload the IDE.
+Open the terminal and select the `+
 
-* [Shell Launcher](https://marketplace.visualstudio.com/items?itemName=Tyriar.shell-launcher) _Easily launch multiple shell configurations in the terminal._
+Open the command prompt ( CTRL + P Windows ) and enter `>Terminal: Configure Terminal Settings` to call up the correct settings editor. You may need to add this to get to the settings if you don't want to scroll.
+`@feature:terminal integrated profiles windows`.
 
-Now open your user settings like is shown in the Commandbox only section just above. Add the following to your `USER SETTINGS`.
+Click on `Edit in settings.json` and add the following to the setting and save. Then you should see an option to launch Commandbox in your terminal.
 
-`//Shell launcher`\
-`// A list of shell configurations for Windows`\
-`"shellLauncher.shells.windows": [`\
-`{`\
-`"shell": "C:\\Windows\\sysnative\\cmd.exe",`\
-`"label": "cmd"`\
-`},`\
-`{`\
-`"shell": "/path/to/box",`\
-`"label": "Commandbox"`\
-`}`\
-`],`
+```
+        "Commandbox": {
+            "path": "C:\\dev\\tools\\box\\box.exe"
+        },
+```
 
 ### Or loading it as desired
 
