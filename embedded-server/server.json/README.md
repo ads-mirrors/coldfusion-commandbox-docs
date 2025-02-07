@@ -81,19 +81,16 @@ Every time you start a server, the settings used to start it are saved in a `ser
         "welcomeFiles": "index.cfm,main.cfm,go.cfm",
         "bindings": {
             "HTTP": {
-                "enable": true,
-                "port": 8080
+               "listen" : "8080"
             },
             "SSL": {
-                "enable": false,
-                "port": 443,
+                "listen": 443,
                 "certFile": "",
                 "keyFile": "",
                 "keyPass": ""
             },
             "AJP": {
-                "enable": false,
-                "port": 8009
+                "listen": 8009
             },
         },
         "rewrites": {
