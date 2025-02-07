@@ -1,6 +1,6 @@
 # Upgrading
 
-CommandBox is a Java-based tool that involves several pieces including native Java classes, CFML code, and the embedded Railo CLI. However, most changes are confined to the CFML code managed by [WireBox](http://wiki.coldbox.org/wiki/WireBox.cfm). To determine what version you have installed, use the `version` command.
+CommandBox is a Java-based tool that involves several pieces including native Java classes, CFML code, and the embedded Lucee CLI. However, most changes are confined to the CFML code managed by [WireBox](http://wiki.coldbox.org/wiki/WireBox.cfm). To determine what version you have installed, use the `version` command.
 
 ```bash
 box version
