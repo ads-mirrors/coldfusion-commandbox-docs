@@ -30,7 +30,7 @@ Or try a font like `Consolas`, `DejaVu Sans Mono`, or `Fira Code`. The best way 
 
 Here is a guide for setting a new font up to be used with the Windows cmd terminal:
 
-[https://www.techrepublic.com/blog/windows-and-office/quick-tip-add-fonts-to-the-command-prompt/](https://www.techrepublic.com/blog/windows-and-office/quick-tip-add-fonts-to-the-command-prompt/)
+[https://blog.maselectronics.com/add-fonts-to-the-command-prompt/](https://blog.maselectronics.com/add-fonts-to-the-command-prompt/)
 
 For Windows users, we also recommend using ConEMU as your terminal.
 
