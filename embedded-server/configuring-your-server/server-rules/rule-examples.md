@@ -15,6 +15,13 @@ path(/healthcheck) -> done
 path(/healthcheck) -> response-code(503)  // This rule is skipped
 ```
 
+You may also want to stop processing rules for given file extensions:
+
+```javascript
+regex-nocase( ".*\.(ttf|woff|woff2|eot|otf)$" ) -> done
+regex-nocase( ".*\.(ttf|woff|woff2|eot|otf)$" ) -> response-code(503)  // This rule is skipped
+```
+
 For all GET requests, set a response header called `type` with a value of `get`
 
 ```javascript
@@ -39,16 +46,33 @@ Set a request header for all requests that you can access in your CFML app just 
 set(attribute='%{i,someHeader}', value=someValue)
 ```
 
+Set a response header for all requests. Note that each line in the following example are alternative syntaxes you can use. All examples below will work the same.
+
+```javascript
+set(attribute='%{o,X-Powered-By}', value='CommandBox')
+header(header="X-Powered-By", value="CommandBox")
+true -> set(attribute='%{o,X-Powered-By}', value='CommandBox')
+true -> header(header="X-Powered-By", value="CommandBox")
+```
+
 Set a Cache-Control response header only for default index pages(ie: index.html or index.cfm) in any folder.
 
 ```javascript
 regex('.*/index\..*') or path-suffix('/') -> set(attribute='%{o,Cache-Control}', value='no-cache')
+// alternative syntax
+regex('.*/index\..*') or path-suffix('/') -> header(header='Cache-Control', value='no-cache')
 ```
 
 Set a response header for a specific file.
 
 ```javascript
 path('/freshcontent.html') -> set(attribute='%{o,Cache-Control}', value='no-cache')
+```
+
+Set Cache-Control reponse header for static assets.
+
+```
+regex-nocase('.*\.(js|map|css|jpg|jpeg|png|gif|ico|svg|ttf|woff|woff2|eot|otf)$') -> header( header='Cache-Control', value='public, max-age=31536000' )
 ```
 
 Match certain SES-style URLs and store the place holders (referenced as exchange attributes) into HTTP request headers.
@@ -116,6 +140,7 @@ Basic MVC rewrite:
 
 ```javascript
 not regex-nocase( '.*\.(bmp|gif|jpe?g|png|css|js|txt|xls|ico|swf|cfm|cfc|html|htm)$' ) -> rewrite('/index.cfm/%{RELATIVE_PATH}')
+path-prefix( "/api/" ) and not is-file and not is-directory -> { rewrite( "/myapp/index.cfm/api${remaining}" ); done }
 ```
 
 Add a CORs header to every request
@@ -155,3 +180,10 @@ Create reverse proxy to a single host
 ```json
 proxy( 'http://localhost:8085' )
 ```
+
+Return at 410 HTTP status code for requests to flex paths and stop processed rules
+
+```javascript
+path-prefix( { "/flex2gateway", "/flex-internal", "/flashservices/gateway", "/cfform-internal", "/CFFormGateway", "/openamf/gateway", "/messagebroker" } ) -> { response-code( 410 ); done }
+```
+
