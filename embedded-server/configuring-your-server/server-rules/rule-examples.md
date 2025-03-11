@@ -181,9 +181,9 @@ Create reverse proxy to a single host
 proxy( 'http://localhost:8085' )
 ```
 
-Return at 410 HTTP status code for requests to flex paths and stop processed rules
+Return at 404 HTTP status code for requests to flex paths and stop processed rules
 
 ```javascript
-path-prefix( { "/flex2gateway", "/flex-internal", "/flashservices/gateway", "/cfform-internal", "/CFFormGateway", "/openamf/gateway", "/messagebroker" } ) -> { response-code( 410 ); done }
+path-prefix( { "/flex2gateway", "/flex-internal", "/flashservices/gateway", "/cfform-internal", "/CFFormGateway", "/openamf/gateway", "/messagebroker" } ) -> { response-code( 404 ); done }
 ```
 
