@@ -226,7 +226,7 @@ HTTP/2 is enabled by default. The legacy `web.http2enable` flag is still obeyed 
 To configure a single SSL Server cert, you can specify the following keys inside the binding:
 
 * `certFile` - A PEM-encoded DER cert or a PFX file
-* `keyFile` - THe Private key (not used for PFX)
+* `keyFile` - The Private key (not used for PFX)
 * `keyPass` - The key pass or PFX pass. Blank if not used
 
 {% code title="server.json" %}
