@@ -172,6 +172,7 @@
     * [Console Log Layout](embedded-server/configuring-your-server/console-log-layout.md)
     * [Resource Manager](embedded-server/configuring-your-server/resource-manager-logging.md)
     * [Adobe CF Features](embedded-server/configuring-your-server/adobe-cfpm.md)
+    * [Warmup URLs](embedded-server/configuring-your-server/warmup-urls.md)
     * [Experimental Features](embedded-server/configuring-your-server/experimental-features.md)
   * [External Web Server](embedded-server/external-web-server.md)
   * [Starting as a Service](embedded-server/starting-as-a-service.md)
