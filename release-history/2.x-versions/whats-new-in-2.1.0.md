@@ -20,7 +20,7 @@ install username/repoName
 
 If you've not used CommandBox yet, check out our getting started guide here:
 
-[http://commandbox.ortusbooks.com/content/getting\_started\_guide.html](http://commandbox.ortusbooks.com/content/getting\_started\_guide.html)
+[http://commandbox.ortusbooks.com/content/getting\_started\_guide.html](http://commandbox.ortusbooks.com/content/getting_started_guide.html)
 
 You can download CommandBox 2.1.0 here on our product page:
 

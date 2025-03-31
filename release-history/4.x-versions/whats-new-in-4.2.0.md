@@ -52,7 +52,7 @@ You can now control the exit code that CommandBox (or your recipe) exits with.  
 exit 123
 ```
 
-Access the Exit Code of the previous command via a System Setting expansion of**${exitCode}**.
+Access the Exit Code of the previous command via a System Setting expansion o&#x66;**${exitCode}**.
 
 ```bash
 echo ${exitCode}
@@ -166,9 +166,9 @@ The full docs are here:
 
 We've added 17 pieces of flair to our server tray menus to show you more information such as PID, webroot, and port as well as a new option to open up the web root in your file system explorer.
 
-![](https://www.ortussolutions.com/\_\_media/blog/commandbox-4.2.0-tray-icon-1.png)
+![](https://www.ortussolutions.com/__media/blog/commandbox-4.2.0-tray-icon-1.png)
 
-![](https://www.ortussolutions.com/\_\_media/blog/commandbox-4.2.0-tray-icon-2.png)
+![](https://www.ortussolutions.com/__media/blog/commandbox-4.2.0-tray-icon-2.png)
 
 ## Release Notes
 

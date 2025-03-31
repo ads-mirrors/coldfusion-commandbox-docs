@@ -19,7 +19,7 @@ CommandBox> start WARPath=/var/www/myApp.war
 
 We'v released a brand new [ForgeBox.io](https://www.forgebox.io/) site with a new UI, fresh features, and a shiny new API.  CommandBox 3.1.1 is now powered by the new ForgeBox site and API which includes features like having more than one version for a package. &#x20;
 
-![](https://www.ortussolutions.com/\_\_media/forgebox2.0.png)
+![](https://www.ortussolutions.com/__media/forgebox2.0.png)
 
 ### Semantic Versioning support
 

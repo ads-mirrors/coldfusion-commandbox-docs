@@ -16,7 +16,7 @@ You can change CommandBox's default tab completion to be an inline list that fol
 config set tabCompleteInline=true
 ```
 
-![](https://www.ortussolutions.com/\_\_media/CLIlistcomplete.png)
+![](https://www.ortussolutions.com/__media/CLIlistcomplete.png)
 
 Read more here:&#x20;
 

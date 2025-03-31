@@ -119,7 +119,7 @@ More Info: [https://commandbox.ortusbooks.com/task-runners/threading-async#async
 
 The print helper in commands and Task Runners has a new toy that will print ASCII representations of tabular data thanks to a pull request from Eric Peterson. You can see it in the output of the **outdated** command.
 
-![](https://www.ortussolutions.com/\_\_media/blog/commandbox-outdated-screenshot.png)
+![](https://www.ortussolutions.com/__media/blog/commandbox-outdated-screenshot.png)
 
 And you can use it in your Task Runners like so:
 

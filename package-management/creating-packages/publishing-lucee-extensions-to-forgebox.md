@@ -10,7 +10,7 @@ In order to publish you extension (or any other package for that matter) to Forg
 2. A box.json with the correct metadata in your package.
 3. Run the `publish` command from that folder.
 
-A new package will be created if it doesn’t exist, otherwise it will be updated. A new version will also be created if it doesn’t exist matching the version in your `box.json` or it will be updated. Review our generic docs on how to creating and publishing packages here: [https://ortus.gitbooks.io/commandbox-documentation/content/packages/creating\_packages/creating\_packages.html](https://ortus.gitbooks.io/commandbox-documentation/content/packages/creating\_packages/creating\_packages.html)
+A new package will be created if it doesn’t exist, otherwise it will be updated. A new version will also be created if it doesn’t exist matching the version in your `box.json` or it will be updated. Review our generic docs on how to creating and publishing packages here: [https://ortus.gitbooks.io/commandbox-documentation/content/packages/creating\_packages/creating\_packages.html](https://ortus.gitbooks.io/commandbox-documentation/content/packages/creating_packages/creating_packages.html)
 
 ## Package Metadata
 

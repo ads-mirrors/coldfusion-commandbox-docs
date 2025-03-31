@@ -6,7 +6,7 @@ When you need to download a file from HTTP(S) in a Task Runner, you'll want to u
 * Doesn't lock the CLI during download but shows a handy progress bar to the user.
 * Can be interrupted with Ctrl-C for very large downloads that the user wants to cancel.
 
-![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LA-UVvV3\_TgzQyCXMWK%2F-LJqkgVkgGKH6jzjAWle%2F-LJqmUntaqD34N2yZ8nC%2Fimage.png?alt=media\&token=54f8d3e5-19d8-4c15-b357-227212c2bcf6)
+![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LA-UVvV3_TgzQyCXMWK%2F-LJqkgVkgGKH6jzjAWle%2F-LJqmUntaqD34N2yZ8nC%2Fimage.png?alt=media\&token=54f8d3e5-19d8-4c15-b357-227212c2bcf6)
 
 If the remote server doesn't send a content length header (like S3 cloudfront) then instead of a progress bar, you'll just see a climbing file size that shows how much as been downloaded so far.
 

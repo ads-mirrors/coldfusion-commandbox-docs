@@ -164,7 +164,7 @@ Read More: [https://commandbox.ortusbooks.com/embedded-server/configuring-your-s
 
 There is a helpful command called `forgebox version-debug` which will show you what version of a package will be installed without actually installing it. It can also be useful to test a semver range and see what packages it matches.
 
-![](https://www.ortussolutions.com/\_\_media/forgebox-version-debug.png)
+![](https://www.ortussolutions.com/__media/forgebox-version-debug.png)
 
 Read More: [https://commandbox.ortusbooks.com/package-management/installing-packages/debug-installation](https://commandbox.ortusbooks.com/package-management/installing-packages/debug-installation)
 

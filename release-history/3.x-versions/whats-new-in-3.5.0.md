@@ -87,7 +87,7 @@ This is one that you take for granted if you've always used Adobe ColdFusion, bu
 site.com/myFolder/index.cfm/home/login
 ```
 
-We've added just a dash of servlet fairy dust that now makes this possible.  Note, if you want to hide the **index.cfm** with URL rewrites, you'll need a [custom rewrite config](https://ortus.gitbooks.io/commandbox-documentation/content/embedded\_server/url\_rewrites.html) for it to work in a subfolder.
+We've added just a dash of servlet fairy dust that now makes this possible.  Note, if you want to hide the **index.cfm** with URL rewrites, you'll need a [custom rewrite config](https://ortus.gitbooks.io/commandbox-documentation/content/embedded_server/url_rewrites.html) for it to work in a subfolder.
 
 ### Server Configuration
 
@@ -110,7 +110,7 @@ CommandBox> server info property=consoleLogPath
 CommandBox> server info --JSON
 ```
 
-Combining these allows you to do some nice one-liners like scripting out the copying of config settings when the server starts up.  Hint: [Use an **onServerInstall** or **onServerStart** package script](https://commandbox.ortusbooks.com/content/v/development/embedded\_server/copy-configs.html)!
+Combining these allows you to do some nice one-liners like scripting out the copying of config settings when the server starts up.  Hint: [Use an **onServerInstall** or **onServerStart** package script](https://commandbox.ortusbooks.com/content/v/development/embedded_server/copy-configs.html)!
 
 ```bash
 CommandBox> cp neo-datasource.xml '`server info property=serverHomeDirectory`/WEB-INF/cfusion/lib/neo-datasource.xml'
@@ -118,11 +118,11 @@ CommandBox> cp neo-datasource.xml '`server info property=serverHomeDirectory`/WE
 
 Read more about this here:
 
-[https://commandbox.ortusbooks.com/content/v/development/embedded\_server/copy-configs.html](https://commandbox.ortusbooks.com/content/v/development/embedded\_server/copy-configs.html)
+[https://commandbox.ortusbooks.com/content/v/development/embedded\_server/copy-configs.html](https://commandbox.ortusbooks.com/content/v/development/embedded_server/copy-configs.html)
 
 ### Custom Server Home
 
-Until now you've had to live with the special directory that CommandBox uses to install your servers into.  Now you can get full control over where the server goes which is perfect for creating a folder "seeded" with config files that you want the server to use when it first starts.  This trick (with some [clever Git ignores](https://commandbox.ortusbooks.com/content/v/development/embedded\_server/custom-server-home.html)) will also allow you to commit changes to your config files back to the repo while ignoring the rest of the engine.
+Until now you've had to live with the special directory that CommandBox uses to install your servers into.  Now you can get full control over where the server goes which is perfect for creating a folder "seeded" with config files that you want the server to use when it first starts.  This trick (with some [clever Git ignores](https://commandbox.ortusbooks.com/content/v/development/embedded_server/custom-server-home.html)) will also allow you to commit changes to your config files back to the repo while ignoring the rest of the engine.
 
 * Customize Lucee's **server** context folder with the **serverConfigDir** setting
 * Customize Lucee's **web** context folder with the **webConfigDir** setting
@@ -132,7 +132,7 @@ This is very powerful since it gives you full control over the server deployment
 
 Read more about this here.
 
-[https://commandbox.ortusbooks.com/content/v/development/embedded\_server/custom-server-home.html](https://commandbox.ortusbooks.com/content/v/development/embedded\_server/custom-server-home.html)
+[https://commandbox.ortusbooks.com/content/v/development/embedded\_server/custom-server-home.html](https://commandbox.ortusbooks.com/content/v/development/embedded_server/custom-server-home.html)
 
 ### A Few Changes
 

@@ -6,19 +6,19 @@ Help is integrated at every level in CommandBox. You can help global help, names
 
 To get an overall list of all the commands you have available to run, simply type `help` at the shell.
 
-![Global Help](../.gitbook/assets/global\_help.png)
+![Global Help](../.gitbook/assets/global_help.png)
 
 ## Namespace Help
 
 Next, drill down and get help on a specific namespace like `server`.
 
-![Namespace Help](../.gitbook/assets/namespace\_help.png)
+![Namespace Help](../.gitbook/assets/namespace_help.png)
 
 ## Command Help
 
 And finally, get help on a single command such as `server stop`. We can see the command is also aliased as just `stop` as well as all the possible parameters and their types along with a few sample ways to call the command.
 
-![Command Help](../.gitbook/assets/command\_help.png)
+![Command Help](../.gitbook/assets/command_help.png)
 
 ## HTML Command API Docs
 

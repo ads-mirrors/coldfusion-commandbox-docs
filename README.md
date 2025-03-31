@@ -1,6 +1,6 @@
 # Introduction
 
-## CommandBox Manual - Version 6.1.0
+## CommandBox Manual - Version 6.2.0
 
 ![CommandBox](.gitbook/assets/CommandBoxLogo.png)
 
@@ -41,7 +41,7 @@ We all make mistakes from time to time :) so why not let us know about it and he
 
 ## Professional Open Source
 
-![Ortus Solutions, Corp](<.gitbook/assets/ortussolutions\_button (1).png>)
+![Ortus Solutions, Corp](<.gitbook/assets/ortussolutions_button (1).png>)
 
 CommandBox is professional open source software backed by [Ortus Solutions, Corp](http://www.ortussolutions.com/services) offering services like:
 

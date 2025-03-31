@@ -4,9 +4,9 @@ This fixes a bug in the "update" and "outdated" commands that caused them to err
 
 We also included a small enhancement to the Git endpoint to allow for authentication via public/private SSH keys.  As long as you have a public key configured on your Git server and the private key is stored in \~/.ssh/ using a standard name, SSH-based clones should automatically authenticate.  Please see [the docs](http://commandbox.ortusbooks.com/content/packages/endpoints/git.html) for more info.
 
-As always, the [CommandBox Getting Started Guide](http://commandbox.ortusbooks.com/content/getting\_started\_guide.html) is located here:
+As always, the [CommandBox Getting Started Guide](http://commandbox.ortusbooks.com/content/getting_started_guide.html) is located here:
 
-[http://commandbox.ortusbooks.com/content/getting\_started\_guide.html](http://commandbox.ortusbooks.com/content/getting\_started\_guide.html)
+[http://commandbox.ortusbooks.com/content/getting\_started\_guide.html](http://commandbox.ortusbooks.com/content/getting_started_guide.html)
 
 ## Release Notes
 

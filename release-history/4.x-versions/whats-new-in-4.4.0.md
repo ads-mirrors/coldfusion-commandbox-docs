@@ -38,7 +38,7 @@ coldbox watch-reinit
 
 Thanks to John Berquist, CommandBox now has sweet color coding any time it outputs JSON to the screen.  Try it out by running something like "server show".&#x20;
 
-![](https://www.ortussolutions.com/\_\_media/colored\_JSON.png)
+![](https://www.ortussolutions.com/__media/colored_JSON.png)
 
 Users can also customize the colors they see for JSON with the following config settings:
 

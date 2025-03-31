@@ -26,7 +26,7 @@ You can start as many embedded server instances as you want. Each running server
 
 ### Open Browser
 
-When a  server finishes starting, CommandBox will automatically open up the root of the site in your default browser.  You can control the URL that is opened with
+When a server finishes starting, CommandBox will automatically open up the root of the site in your default browser. You can control the URL that is opened with
 
 ```bash
 server set openBrowserURL=/admin/foo.cfm
@@ -64,11 +64,11 @@ Or turn it off at a global level in your config settings.
 config set server.defaults.trayEnable=false
 ```
 
-## Full  Control
+## Full Control
 
 CommandBox's embedded server does not require any prior installations of any CFML engine to work. It does not use Apache, IIS, or Nginx. A very lightweight Java web server called [Undertow](http://undertow.io/) is used and a context is programmatically deployed via a WAR file.
 
-You should still have all the options you need to set up most local development servers quickly. The web-based administrator is available to you where you can edit any setting, add data sources, CF mappings, and mail servers. To see a list of all the parameters you can pass to the `server start` command, refer to the [CommandBox API Docs](http://apidocs.ortussolutions.com/commandbox/6.1.0/index.html?commandbox/system/modules\_app/server-commands/commands/server/start.html) or run `server start help` command directly from the CLI.
+You should still have all the options you need to set up most local development servers quickly. The web-based administrator is available to you where you can edit any setting, add data sources, CF mappings, and mail servers. To see a list of all the parameters you can pass to the `server start` command, refer to the [CommandBox API Docs](http://apidocs.ortussolutions.com/commandbox/6.1.0/index.html?commandbox/system/modules_app/server-commands/commands/server/start.html) or run `server start help` command directly from the CLI.
 
 ## Environment Variables
 

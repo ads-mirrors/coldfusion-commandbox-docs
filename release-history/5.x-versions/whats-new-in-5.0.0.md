@@ -23,7 +23,7 @@ Let's start with the library updates.  For the most part, all the jars we bundle
 * **Runwar** 4.0.3 _(major bump from 3.x)_
 * **JBoss Undertow** 2.0.27.Final _(major bump from 1.x)_
 * **JGit** 5.5.1.201910021850-r
-* **Lucee** 5.3.4.77_("major" bump from 5.2)_
+* **Lucee** 5.3.4.7&#x37;_("major" bump from 5.2)_
 * **AdoptOpenJDK** jdk-11.0.6+10 (In the JRE-included download) _(major bump from 8.x)_
 
 ### New Features/Enhancements
@@ -117,7 +117,7 @@ dir | grep .*\.md --count
 
 The tray icon for your servers now has a new option under the "Open" menu that will open up the file system folder where the server home lives.  This is nice for finding your CF Engine's log files.
 
-![](https://www.ortussolutions.com/\_\_media/blog/new-menu-commandbox-5-0-0.png)
+![](https://www.ortussolutions.com/__media/blog/new-menu-commandbox-5-0-0.png)
 
 ## Release Notes
 

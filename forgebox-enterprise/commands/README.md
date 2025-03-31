@@ -11,5 +11,5 @@ This is a list of the commands you have available to integrate with ForgeBox ent
 
 {% hint style="info" %}
 You can always ask CommandBox for help by adding a question mark at the end of your command.\
-e_xample: `forgebox endpoint ?`_
+&#x65;_&#x78;ample: `forgebox endpoint ?`_
 {% endhint %}

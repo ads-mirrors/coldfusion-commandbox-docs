@@ -2,7 +2,7 @@
 
 Properties weren't being read correctly from the `server.json` file.  If you have been using `server.json`, please double check the format of the file here in our docs:
 
-[http://commandbox.ortusbooks.com/content/embedded\_server/serverjson.html](http://commandbox.ortusbooks.com/content/embedded\_server/serverjson.html)
+[http://commandbox.ortusbooks.com/content/embedded\_server/serverjson.html](http://commandbox.ortusbooks.com/content/embedded_server/serverjson.html)
 
 This fix will make this functionality work as expected:
 

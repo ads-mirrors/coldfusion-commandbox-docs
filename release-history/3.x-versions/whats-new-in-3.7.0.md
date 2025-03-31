@@ -3,19 +3,19 @@
 ## What's New
 
 * **Task Runners** - Run ad-hoc builds from the CLI written in CFML [_(Read more)_](https://commandbox.ortusbooks.com/content/task-runners.html)
-* **Manage System Packages** - update, list, and uninstall system modules [_(Read more)_](https://commandbox.ortusbooks.com/content/packages/installing\_packages/system-modules.html)
+* **Manage System Packages** - update, list, and uninstall system modules [_(Read more)_](https://commandbox.ortusbooks.com/content/packages/installing_packages/system-modules.html)
 * **File Globbing** - Use place holders like _\*\*.cfc_ for file operations to affect more than one file at a time. [_(Read more)_](https://commandbox.ortusbooks.com/content/usage/parameters/globbing-patterns.html)
 * **Command Aliases** - Alias your favorite commands for easy access in the future [_(Read more)_](https://commandbox.ortusbooks.com/content/usage/execution/ad-hoc-command-aliases.html)
 * **Global Command Parameter Defaults** - Set common parameters to have a given value at a global level [_(Read more)_](https://commandbox.ortusbooks.com/content/usage/execution/default-command-parameters.html)
 * **System Settings** - Utilize environment variables to make your package and servers more dynamic [_(Read more)_](https://commandbox.ortusbooks.com/content/usage/execution/system-settings.html)
 * **Testbox Run** - Improved, minimalist output to the "testbox run" command [_(Read more)_](https://commandbox.ortusbooks.com/content/testbox-integration/test-runner.html)
 * **TestBox Watchers** - Watch a directory for file changes and run your unit tests [_(Read more)_](https://commandbox.ortusbooks.com/content/testbox-integration/test-watcher.html)
-* **Customize REST Servlets** - Customize or disable the REST servlet paths on Lucee and Adobe servers [_(Read more)_](https://commandbox.ortusbooks.com/content/embedded\_server/rest-servlet.html)
-* **Custom Java Versions** - Start your CF servers with any version of Java you want [_(Read more)_](https://commandbox.ortusbooks.com/content/embedded\_server/custom-java-version.html)
+* **Customize REST Servlets** - Customize or disable the REST servlet paths on Lucee and Adobe servers [_(Read more)_](https://commandbox.ortusbooks.com/content/embedded_server/rest-servlet.html)
+* **Custom Java Versions** - Start your CF servers with any version of Java you want [_(Read more)_](https://commandbox.ortusbooks.com/content/embedded_server/custom-java-version.html)
 * **Property files** - New commands and helper libs for dealing with property files [_(Read more)_](https://commandbox.ortusbooks.com/content/task-runners/property-files.html)
-* **Basic Authentication** - Enable basic security on your servers with unlimited users [_(Read more)_](https://commandbox.ortusbooks.com/content/embedded\_server/basic-authentication.html)
-* **Custom URL to Open** - Customize the browser URL that opens when you start a server [_(Read more)_](https://commandbox.ortusbooks.com/content/embedded\_server/server\_port\_and\_host.html#customize-url-that-opens-for-server)
-* **Disable Tray Icon** - Turn off the system tray icon for your servers entirely [_(Read more)_](https://commandbox.ortusbooks.com/content/embedded\_server/embedded\_server.html#disable-the-tray-icon)
+* **Basic Authentication** - Enable basic security on your servers with unlimited users [_(Read more)_](https://commandbox.ortusbooks.com/content/embedded_server/basic-authentication.html)
+* **Custom URL to Open** - Customize the browser URL that opens when you start a server [_(Read more)_](https://commandbox.ortusbooks.com/content/embedded_server/server_port_and_host.html#customize-url-that-opens-for-server)
+* **Disable Tray Icon** - Turn off the system tray icon for your servers entirely [_(Read more)_](https://commandbox.ortusbooks.com/content/embedded_server/embedded_server.html#disable-the-tray-icon)
 * **Show Proxy IP** - Servers pass through the original user IP through proxies
 * **Jar Endpoint** - Install 3rd party jars into your projects [_(Read more)_](https://commandbox.ortusbooks.com/content/packages/endpoints/jar-via-http.html)
 

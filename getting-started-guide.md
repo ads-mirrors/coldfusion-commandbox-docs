@@ -2,7 +2,7 @@
 
 Congratulations on your choice of CommandBox, the next generation of CFML productivity tooling! We're pleased you've chosen this product and we can't wait to help you get started with it. Setup is easy and painless. We'll walk you through the steps you need to become the jealous rage of your peers with the class of a Java guru, the hipster appeal of a Rubyist, and the ASCII art fetish of a Node.js developer.
 
-![In The Package](.gitbook/assets/in\_the\_package.png)
+![In The Package](.gitbook/assets/in_the_package.png)
 
 Your CommandBox download was quality checked and shipped from our integration server with the following items. You'll want to check the contents of the package to ensure you received everything.
 
@@ -15,7 +15,7 @@ Your CommandBox download was quality checked and shipped from our integration se
 
 ## 1. Download
 
-![Open the package](.gitbook/assets/the\_package.png)
+![Open the package](.gitbook/assets/the_package.png)
 
 If you don't already have CommandBox in hand, download it from the product page on the Ortus Solutions site:
 
@@ -27,11 +27,11 @@ You're well on your way now. While you wait for arrival you might want to secure
 
 ## 2. Unzip & First Run
 
-![Setup](<.gitbook/assets/open\_package (2) (2) (2) (2) (2) (2) (2).png>)
+![Setup](<.gitbook/assets/open_package (2) (2) (2) (2) (2) (2) (2).png>)
 
 Your CommandBox is sent to you via a zip archive. Decompress the archive to a location of your choice. The **No JRE Included** download will only have one file in it named `box`. For Windows users, this will be an `exe` file. For unix-based users, it will be an executable binary. The **With JRE Included** version will have a `jre` folder. You can move `box.exe`, but keep the `jre` folder in the same relative location as the executable so it can be found.
 
-![CommandBox Icon](<.gitbook/assets/box\_icon (2) (2) (2) (2) (2) (2) (2).png>)
+![CommandBox Icon](<.gitbook/assets/box_icon (2) (2) (2) (2) (2) (2) (2).png>)
 
 Now just double click the file from your GUI, or execute it via a console window. This will start a short, quick, one-time process of unpacking CommandBox into your user's home directory. Congratulations, CommandBox is now installed! You'll still run the same executable binary every time you want to use the CLI, but the extraction process won't need to happen again.
 
@@ -91,7 +91,7 @@ When you're done, just type `quit` to exit the REPL. How does it feel to master 
 
 ### Package Manager
 
-![Embedded Server](.gitbook/assets/package\_manager.png)
+![Embedded Server](.gitbook/assets/package_manager.png)
 
 It's about time we did something useful. CommandBox allows you to _install_ stuff and it makes it really easy. You now have ForgeBox on speed dial. Let's create a little playground to experiment in. Adjust these paths accordingly for Unix-based OS's.
 
@@ -120,7 +120,7 @@ CommandBox> coldbox create app MyApp
 
 ### Embedded Server
 
-![Embedded Server](.gitbook/assets/embedded\_server.png)
+![Embedded Server](.gitbook/assets/embedded_server.png)
 
 Now that we have a nifty little test app, let's give it a spin. Wait, you don't need to install a CF server, CommandBox has one built in! You can start up an ad-hoc server in _any_ folder on your hard drive simply by typing `start`. It really couldn't be any simpler.
 

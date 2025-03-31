@@ -12,11 +12,11 @@ config set setting1=value1 setting2=value2 setting3=value3
 config show settingName
 ```
 
-[Read More](http://commandbox.ortusbooks.com/content/v/development/config\_settings/config\_settings.html)
+[Read More](http://commandbox.ortusbooks.com/content/v/development/config_settings/config_settings.html)
 
 ### Modules
 
-This is perhaps the most radical thing we've done in CommandBox to date and it is huge.  We've introduced modules (just like ColdBox) into the actual CLI itself.  A module is a unit of code re-use that allows you to take a folder of code that follows a few simple conventions and drop it into a module-aware application for instant extension.  This means that we've broken out all the internal commands into system modules for organization.  What's more, you can write your own CommandBox modules that hook into the internal workings with interceptors, register their own custom commands, or help manage settings or servers.  Modules can be placed on [ForgeBox](http://www.forgebox.io/) and installed by your friends in seconds to extend the core of CommandBox.  The benefits here can't be understated.  Check out [the docs](http://commandbox.ortusbooks.com/content/v/development/developing/modules/developing\_modules.html) and go through the quick, easy steps to create your first CommandBox module. &#x20;
+This is perhaps the most radical thing we've done in CommandBox to date and it is huge.  We've introduced modules (just like ColdBox) into the actual CLI itself.  A module is a unit of code re-use that allows you to take a folder of code that follows a few simple conventions and drop it into a module-aware application for instant extension.  This means that we've broken out all the internal commands into system modules for organization.  What's more, you can write your own CommandBox modules that hook into the internal workings with interceptors, register their own custom commands, or help manage settings or servers.  Modules can be placed on [ForgeBox](http://www.forgebox.io/) and installed by your friends in seconds to extend the core of CommandBox.  The benefits here can't be understated.  Check out [the docs](http://commandbox.ortusbooks.com/content/v/development/developing/modules/developing_modules.html) and go through the quick, easy steps to create your first CommandBox module. &#x20;
 
 Not only can modules have settings, but you can also override a module's default settings easily with config settings that follow a simple convention.  For example, if a module named "**foo**" has a setting named "**bar**", you don't need to edit the module's code to change the setting.  Simply run this command:
 
@@ -24,11 +24,11 @@ Not only can modules have settings, but you can also override a module's default
 config set modules.foo.bar=value
 ```
 
-[Read More](http://commandbox.ortusbooks.com/content/v/development/developing/modules/developing\_modules.html)
+[Read More](http://commandbox.ortusbooks.com/content/v/development/developing/modules/developing_modules.html)
 
 ### Interceptors
 
-CommandBox interceptors, like modules, work the same way that ColdBox interceptors do.  They give you hooks that you can register to listen to events broadcast by the CommandBox core, or custom events of your own design that you announce.  These are very powerful for being able to extend and modify how the core CLI works to build upon it.  Interceptors are bundled inside modules so they install quickly and easily.  Distribute them on [ForgeBox](http://www.forgebox.io/) as well.  I've already created a [simple example module](http://commandbox.ortusbooks.com/content/v/development/developing/example\_project.html) that uses the **onCLIStart** interceptor to modify the ASCII art banner that appears when you start CommandBox.
+CommandBox interceptors, like modules, work the same way that ColdBox interceptors do.  They give you hooks that you can register to listen to events broadcast by the CommandBox core, or custom events of your own design that you announce.  These are very powerful for being able to extend and modify how the core CLI works to build upon it.  Interceptors are bundled inside modules so they install quickly and easily.  Distribute them on [ForgeBox](http://www.forgebox.io/) as well.  I've already created a [simple example module](http://commandbox.ortusbooks.com/content/v/development/developing/example_project.html) that uses the **onCLIStart** interceptor to modify the ASCII art banner that appears when you start CommandBox.
 
 Here's some of the core interception points:
 
@@ -44,7 +44,7 @@ Here's some of the core interception points:
 
 Now you can write modules that check for upgrades on CommandBox startup, manipulate the output of commands, log exceptions, customize server startup, or audit what package you install the most!
 
-[Read More](http://commandbox.ortusbooks.com/content/v/development/developing/interceptors/developing\_interceptors.html)
+[Read More](http://commandbox.ortusbooks.com/content/v/development/developing/interceptors/developing_interceptors.html)
 
 ### Standardized Command Packaging
 
@@ -56,7 +56,7 @@ There are already some cool custom commands popping up on ForgeBox.  Check out [
 install commandbox-http-command
 ```
 
-[Read More](http://commandbox.ortusbooks.com/content/v/development/developing/commands/developing\_commands.html)
+[Read More](http://commandbox.ortusbooks.com/content/v/development/developing/commands/developing_commands.html)
 
 ### Server.json
 
@@ -68,7 +68,7 @@ server show web.http.port
 server start
 ```
 
-[Read More](http://commandbox.ortusbooks.com/content/v/development/embedded\_server/serverjson.html)
+[Read More](http://commandbox.ortusbooks.com/content/v/development/embedded_server/serverjson.html)
 
 ### Shortcut for Native OS Binaries
 
@@ -80,7 +80,7 @@ We've had the "run" command for a while now that allows you to run native binari
 !dir
 ```
 
-[Read More](http://commandbox.ortusbooks.com/content/v/development/usage/execution/os\_binaries.html)
+[Read More](http://commandbox.ortusbooks.com/content/v/development/usage/execution/os_binaries.html)
 
 ### Shortcut for CFML Functions via REPL
 
@@ -111,7 +111,7 @@ package list --JSON | #structFind dependencies | #structKeyList
 > coldbox,docbox,testbox,cbmessagebox
 ```
 
-[Read More](http://commandbox.ortusbooks.com/content/v/development/usage/execution/cfml\_functions.html)
+[Read More](http://commandbox.ortusbooks.com/content/v/development/usage/execution/cfml_functions.html)
 
 ### Expressions in Command Parameters
 
@@ -153,7 +153,7 @@ command( "echo" )
     .run();
 ```
 
-[Read More](http://commandbox.ortusbooks.com/content/v/development/developing/commands/running\_other\_commands.html)
+[Read More](http://commandbox.ortusbooks.com/content/v/development/developing/commands/running_other_commands.html)
 
 ### New WireBox Injection DSLs
 
@@ -167,7 +167,7 @@ property name='mySetting' inject='commandbox:moduleSettings:moduleName:mySetting
 property name='myConfigSetting' inject='commandbox:ConfigSettings:myConfigSetting'
 ```
 
-[Read More](http://commandbox.ortusbooks.com/content/v/development/developing/injection\_dsl.html)
+[Read More](http://commandbox.ortusbooks.com/content/v/development/developing/injection_dsl.html)
 
 ### Release Notes
 

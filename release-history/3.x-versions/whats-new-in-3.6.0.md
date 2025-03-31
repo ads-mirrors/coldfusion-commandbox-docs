@@ -2,7 +2,7 @@
 
 ### Improve OS binary execution
 
-You've been able to [run OS binaries](https://commandbox.ortusbooks.com/content/usage/execution/os\_binaries.html) from the CommandBox interactive shell for a while now which is great for adding native CLI calls to your recipes.
+You've been able to [run OS binaries](https://commandbox.ortusbooks.com/content/usage/execution/os_binaries.html) from the CommandBox interactive shell for a while now which is great for adding native CLI calls to your recipes.
 
 ```bash
 CommandBox> !git push
@@ -26,8 +26,8 @@ This has been tested and works pretty well on Mac and Windows.  Note, we've seen
 
 ### New interceptor points
 
-* [**preServerForget**](https://commandbox.ortusbooks.com/content/developing/interceptors/core/server\_lifecycle.html) - Always fires before attempting to forget a server whether or not the forgetting is actually successful
-* [**postServerForget**](https://commandbox.ortusbooks.com/content/developing/interceptors/core/server\_lifecycle.html) - Fires after a successful server forget. If the forget fails, this will not fire.
+* [**preServerForget**](https://commandbox.ortusbooks.com/content/developing/interceptors/core/server_lifecycle.html) - Always fires before attempting to forget a server whether or not the forgetting is actually successful
+* [**postServerForget**](https://commandbox.ortusbooks.com/content/developing/interceptors/core/server_lifecycle.html) - Fires after a successful server forget. If the forget fails, this will not fire.
 
 ### Allow spaces in user home directory
 
