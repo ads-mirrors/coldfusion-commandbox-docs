@@ -78,10 +78,18 @@ Unzip the binary **box** and just double click on it to open the shell terminal.
 
 ## Linux apt-get
 
-> **Please note** that if you are running Ubuntu 18.04 or greater, or Debian 8 (Jessie) or greater, it's necessary to have the `libappindicator-dev` package in order to have the tray icon working correctly.
+> **Please note** that if you are running Ubuntu 18.04 or greater, or Debian 8 (Jessie) or greater, it's necessary to have the `libappindicator` package in order to have the tray icon working correctly.
+
+For older versions of Ubuntu/Debian use `libappindicator-dev`&#x20;
 
 ```bash
 sudo apt install libappindicator-dev
+```
+
+For newer versions of Ubuntu/Debian use `libappindicator3-dev`&#x20;
+
+```
+sudo apt install libappindicator3-dev
 ```
 
 Run the following series of commands to add the Ortus signing key, register our Debian repo, and install CommandBox.
