@@ -10,4 +10,4 @@ There is currently no way to have servers start automatically when your computer
 
 ## WEB-INF
 
-You may be used to having your server's WEB-INF folder living in your web root. The CommandBox embedded server still has a dedicated WEB-INF folder for each server you start, but it lives under the main CommandBox installation directory in your user folder. Changes you make to the WEB-INF such as adding jars or new tas will be persisted until you issue a `server forget` command.
+You may be used to having your server's WEB-INF folder living in your web root. The CommandBox embedded server still has a dedicated WEB-INF folder for each server you start, but it lives under the main CommandBox installation directory in your user folder. Changes you make to the WEB-INF such as adding jars or new tags will be persisted until you issue a `server forget` command.
