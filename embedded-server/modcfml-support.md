@@ -24,7 +24,7 @@ server set ModCFML.sharedKey=my-secret
 server set web.ajp.enable=true web.ajp.port=8009
 ```
 
-That's it! The default web root for the server will be whatever folder you start the CommandBox sever in, but that default web root will only be used if a requests reaches CommandBox which doesn't contain the special ModCFML HTTP headers.
+That's it! The default web root for the server will be whatever folder you start the CommandBox sever in, but that default web root will only be used if a request reaches CommandBox which doesn't contain the special ModCFML HTTP headers.
 
 Next you'll need to install BonCode (if using IIS) or mod\_cfml (if using Apache) and configure it with the same shared key for security. The web server doesn't need to be on the same server as CommandBox, but CommandBox's AJP port does need to be accessible to the web server and the port numbers need to match. 8009 is the default AJP port, but it's not a requirement.
 
