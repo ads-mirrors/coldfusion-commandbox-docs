@@ -6,7 +6,7 @@ description: >-
 
 # Pretty Diagrams
 
-This is what a typical ColdFusion deployment looks like. A separate web server sites in front, bound to ports 80 and 443 and proxies back to a Tomcat-based servlet:
+This is what a typical ColdFusion deployment looks like. A separate web server sits in front, bound to ports 80 and 443 and proxies back to a Tomcat-based servlet:
 
 <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Typical Servlet Deployment</p></figcaption></figure>
 
