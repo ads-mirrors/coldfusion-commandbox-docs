@@ -71,7 +71,7 @@ ColdFusion requires a username and password when CommandBox sets it up. When usi
 
 Since Lucee 5.3.4.46, Lucee no longer prompts you to set the admin password the first time running the admin. When using the (default) `development` CommandBox profile, Lucee offers the option for you creating a password.txt file to set that initial password.
 
-See also options to \[control the admin password via CFConfig(https://cfconfig.ortusbooks.com/using-the-cli/commandbox-server-interceptors/server-start#set-individual-settings)].
+See also options to [control the admin password via CFConfig](/using-the-cli/commandbox-server-interceptors/server-start#set-individual-settings).
 
 ## WAR Support
 
