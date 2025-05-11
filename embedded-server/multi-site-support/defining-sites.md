@@ -83,7 +83,7 @@ If you want to access each site individually, you'll either want to specify a se
 
 You can also place a `.site.json` file inside of the web root, which will be found by convention and its contents will be added to the site object for that site. This is akin to configuring your sites in Apache, but having an `.htaccess` file in each web root to override settings.
 
-System setting expansions will be processed in any `.site.json` files, and if a `.env` file exists in the web root as well, thoses env vars will be loaded, but JUST for that `.site.json` file's expansions.
+System setting expansions will be processed in any `.site.json` files, and if a `.env` file exists in the web root as well, those env vars will be loaded, but JUST for that `.site.json` file's expansions.
 
 ### Define a `siteConfigFiles` setting in `server.json`
 
