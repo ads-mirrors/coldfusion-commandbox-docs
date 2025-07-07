@@ -2,7 +2,7 @@
 
 By Default, your servers start using the same version of Java that the CommandBox CLI is using. For people needing to run Adobe ColdFusion 9, or who just want to do some testing on different JREs, you can point each of your servers at a custom JRE and CommandBox will use it when starting the server.
 
-if you already have a JRE downloaded somewhere on your hard drive, you can manually point the server at it, or you can simply tell CommandBox which version of java you'd like, at it will automatically download that version of OpenJDK for your server to use (if it's not already downloaded)
+if you already have a JRE downloaded somewhere on your hard drive, you can manually point the server at it, or you can simply tell CommandBox which version of java you'd like, and it will automatically download that version of OpenJDK for your server to use (if it's not already downloaded)
 
 ## Manual Java Config
 
