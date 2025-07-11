@@ -184,7 +184,8 @@ Here's the module setting, followed by the JVM arg it creates. Remember, you can
 * **fusionreactor.cloudGroup** - `fr.cloud.group`
 * **fusionreactor.requestObfuscateParameters** - `fr.request.obfuscate.parameters`
 * **fusionreactor.autoApplicationNaming** - `fr.application.auto_naming`
-* **fusionreactor.defaultApplicationName** - `fr.application.name`
+* **fusionreactor.defaultApplicationName** - `fr.application.name`&#x20;
+* **fusionreactor.serverName** - Overrides the CommandBox server name in the `javaagent` arg
 * **fusionreactor.EDSEnable** - `fr.ed.ds.enable` (version added: 8.1.0)
 * **fusionreactor.EDSListen** - `fr.ed.ds.listen` (version added: 8.1.0)
 * **fusionreactor.EDSPollTimeout** - `fr.ed.ds.polltimeout` (version added: 8.1.0)
