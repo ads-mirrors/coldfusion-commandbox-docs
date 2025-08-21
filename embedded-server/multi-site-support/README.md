@@ -13,7 +13,7 @@ The default behavior when you run `server start` is to start a server that point
 
 In both cases, there is a single JVM process and a single CF Engine at play. So all sites will use the same CF engine and version. If you want to run different versions of CF, you'll need more than one server. You can use a reverse proxy in your server rules to still access all your sites via a single "front end" server instance.
 
-The CommandBox built-in web server is now fully fledged with out-of-the-box support for multiple bindings, host header matching, multiple SSL certs/SNI, and full control over rewrites gzip compression, virtual directories (aliases) and secure profiles on a per-site basis. CommandBox is now truly the only tool you need to deploy your code! There's no need to have Apache, IIS, or Nginx in the mix any longer.
+The CommandBox built-in web server is now fully fledged with out-of-the-box support for multiple bindings, host header matching, multiple SSL certs/SNI, and full control over rewrites, gzip compression, virtual directories (aliases) and secure profiles on a per-site basis. CommandBox is now truly the only tool you need to deploy your code! There's no need to have Apache, IIS, or Nginx in the mix any longer.
 
 There is a repo on Github that contains working examples of all the features of Multi-Site. Feel free to skip straight there to learn by example.
 
