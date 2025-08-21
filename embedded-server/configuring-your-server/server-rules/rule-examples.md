@@ -155,3 +155,13 @@ Create reverse proxy to a single host
 ```json
 proxy( 'http://localhost:8085' )
 ```
+
+Basic temporary (302) redirect
+```javascript
+regex-nocase( '^/my/old/path' ) -> redirect( '/my/new/path' )
+```
+
+Redirect permanent (301) redirect
+```javascript
+regex-nocase( '^/my/old/path' ) -> { set(attribute='%{o,Location}', value='/my/new/path'); response-code(301); }
+```
